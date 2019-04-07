@@ -12,7 +12,7 @@ const UserBlocked = new Set();
 const prefix = 'w!'
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setActivity(`Type : r!info`,`http://www.twitch.tv/S-F`);
+  client.user.setActivity("Website Private Bot !",{type:'WATCHING'});
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
